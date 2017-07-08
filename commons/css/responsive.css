@@ -1,0 +1,79 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 786px ) {
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .main-navigation {
+        display: none;
+    }
+
+    .menu > li {
+        display: block;
+    }
+
+    .footer-row {
+        width: 100%;
+    }
+
+    .footer-block {
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .offers-item {
+        float: none;
+        width: 100%;
+    }
+
+    .swiper-slide {
+        max-width: 100%;
+    }
+
+    .offers-button {
+        display: none;
+    }
+
+    .offers-content {
+        position: static;
+        display: block;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .modal-content {
+        width: 100%;
+        top: 30px;
+        left: 0;
+        margin: 0;
+        padding: 20px;
+        height: auto;
+    }
+
+    .login-form,
+    .registr-form {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .login-form {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .slide-title {
+        display: none;
+    }
+
+    .page-wrapper {
+        min-width: 385px;
+    }
+}
